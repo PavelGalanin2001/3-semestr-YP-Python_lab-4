@@ -1,5 +1,33 @@
 import os
 
+from task_1_1_1 import task111_main
+from task_1_2_1 import task121_main
+from task_1_3_1 import task131_main
+from task_1_4_1 import task141_main
+
+from task_2_1_1 import task211_main
+from task_2_2_1 import task221_main
+from task_2_3_1 import task231_main
+from task_2_4_1 import task241_main
+
+from task_3_1_1 import task311_main
+from task_3_2_1 import task321_main
+from task_3_4_1 import task341_main
+from task_3_5_3 import task353_main
+from task_3_6_3 import task363_main
+from task_3_7_3 import task373_main
+from task_3_8_1 import task381_main
+
+from task_4_1_1 import task411_main
+from task_4_2_1 import task421_main
+from task_4_3_1 import task431_main
+from task_4_4   import task44_main
+
+from task_6_1   import task61_main
+from task_6_2_1 import task621_main
+from task_6_3_1 import task631_main
+from task_6_4_1 import task641_main
+
 def cls():
     os.system('cls' if os.name=='nt' else 'clear')
 
@@ -25,21 +53,27 @@ def menu():
 
     if case == ord('0'):
         return
+
     elif case == ord('1'):
         sum_menu_1()
         menu()
+
     elif case == ord('2'):
         sum_menu_2()
         menu()
+
     elif case == ord('3'):
         sum_menu_3()
         menu()
+
     elif case == ord('4'):
         sum_menu_4()
         menu()
+
     elif case == ord('6'):
         sum_menu_6()
         menu()
+
     else:
         menu()
 
@@ -63,14 +97,19 @@ def sum_menu_1():
 
     if case == ord('0'):
         return
+
     elif case == ord('1'):
-        import task_1_1_1
+        task111_main()
+
     elif case == ord('2'):
-        import task_1_2_1
+        task121_main()
+
     elif case == ord('3'):
-        import task_1_3_1
+        task131_main()
+
     elif case == ord('4'):
-        import task_1_4_1
+        task141_main() 
+
     else:
         return
 
@@ -96,14 +135,19 @@ def sum_menu_2():
 
     if case == ord('0'):
         return
+
     elif case == ord('1'):
-        import task_2_1_1
+        task211_main()
+
     elif case == ord('2'):
-        import task_2_2_1
+        task221_main()
+
     elif case == ord('3'):
-        import task_2_3_1
+        task231_main()
+
     elif case == ord('4'):
-        import task_2_4_1
+        task241_main()
+
     else:
         return
 
@@ -132,20 +176,28 @@ def sum_menu_3():
 
     if case == ord('0'):
         return
+
     elif case == ord('1'):
-        import task_3_1_1
+        task311_main()
+
     elif case == ord('2'):
-        import task_3_2_1
+        task321_main()
+
     elif case == ord('4'):
-        import task_3_4_1
+        task341_main()
+
     elif case == ord('5'):
-        import task_3_5_3
+        task353_main()
+        
     elif case == ord('6'):
-        import task_3_6_3
+        task363_main()
+
     elif case == ord('7'):
-        import task_3_7_3
+        task373_main()
+
     elif case == ord('8'):
-        import task_3_8_1
+        task381_main()
+
     else:
         return
 
@@ -171,14 +223,19 @@ def sum_menu_4():
 
     if case == ord('0'):
         return
+
     elif case == ord('1'):
-        import task_4_1_1
+        task411_main()
+
     elif case == ord('2'):
-        import task_4_2_1
+        task421_main()
+
     elif case == ord('3'):
-        import task_4_3_1
+        task431_main()
+
     elif case == ord('4'):
-        import task_4_4
+        task44_main()
+
     else:
         return
 
@@ -204,14 +261,19 @@ def sum_menu_6():
 
     if case == ord('0'):
         return
+
     elif case == ord('1'):
-        import task_6_1
+        task61_main()
+
     elif case == ord('2'):
-        import task_6_2
+        task621_main()
+
     elif case == ord('3'):
-        import task_6_3
+        task631_main()
+
     elif case == ord('4'):
-        import task_6_4
+        task641_main()
+
     else:
         return
 
