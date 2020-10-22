@@ -1,10 +1,8 @@
 def task241(string):
-    strWithNum = ''
+    res = ''
     for i in range(len(string)):
-        number = ord(string[i])
-        temp = str(number)
-        strWithNum += temp
-    return strWithNum
+        res += str(ord(string[i]))
+    return res
 
 def task241_main():
     print(

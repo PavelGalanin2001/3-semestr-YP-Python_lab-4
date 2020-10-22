@@ -18,7 +18,7 @@ def task621_main():
 
     lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     print(lst)
-    addedLst = [111, 222, 333]
+    addedLst = [111, 222]
     print(addedLst)
     lst = task621(lst, addedLst)
     print(lst)

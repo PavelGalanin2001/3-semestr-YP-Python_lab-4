@@ -40,6 +40,7 @@ def task363_main():
     ])
 
     print(arr)
+    print()
     task363(arr)
     print(arr)
 

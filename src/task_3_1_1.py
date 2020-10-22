@@ -42,6 +42,7 @@ def task311_main():
     ])
 
     print(arr)
+    print()
     task311(arr)
     print(arr)
 

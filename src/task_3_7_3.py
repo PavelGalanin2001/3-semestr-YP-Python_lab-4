@@ -42,7 +42,7 @@ def task373_main():
     ])
 
     print(arr)
-
-    print(task373(arr))
+    print()
+    print("emount element = 3: %d" % task373(arr))
 
 # task373_main()
